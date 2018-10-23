@@ -12,6 +12,6 @@ class Application
       @@items.each do |i|
         resp.write "#{item}"
       end
-
+    end
   end
 end
